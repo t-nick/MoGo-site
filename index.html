@@ -5,11 +5,27 @@
 	<meta name="vievport" content="width=device-width, initial-scale=1, maxim-scale=1"/>
 	<title>MoGo</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+
+<!-- FONTS -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">  
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400" rel="stylesheet"> 
+
+
+
+<!-- JQUERY UI -->
 	<link rel="stylesheet" href="js/jquery-ui.css">
+	
+
+<!-- Scroll -->
+	<link rel="stylesheet" type="text/css" href="js/scroll/jquery.mCustomScrollbar.css">
+	<link rel="stylesheet" href="js/scroll/style.css">
+	
+
+
+<!-- STYLE -->
 	<link rel="stylesheet" href="css/style.css">
 	
 
@@ -402,6 +418,25 @@
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery-ui.js"></script>
+
+
+<script src="js/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
+	
+	<script>
+		(function($){
+			$(window).load(function(){
+				
+				$("body").mCustomScrollbar({
+					theme:"dark-thick"
+				});
+				$(".conten").mCustomScrollbar({
+					theme:"dark-thick"
+				});
+
+
+			});
+		})(jQuery);
+	</script>
 
   <script>
     $( function() {
