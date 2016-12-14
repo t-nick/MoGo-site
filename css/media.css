@@ -1,0 +1,59 @@
+@media screen and (max-width: 920px){
+.title p{
+	font-size: 100px;
+}
+
+.title p:first-child{
+font-size: 48px;
+}
+header{
+	max-height: 800px;
+}
+.title{
+	margin-top: 90px;
+}
+.two, 
+   .one{
+   	font-size: 15px;
+   }
+   .fourlines{
+   	margin-top: 60px;
+   }
+}
+
+
+
+@media screen and (max-width: 700px){
+	.mobmenu{
+	display: block;
+	
+}
+.menu{
+	display: none;
+}
+	.title p{
+	font-size: 60px;
+}
+.title p:first-child{
+font-size: 28px;
+}
+header{
+	max-height: 600px;
+}
+.title{
+	margin: 60px auto;
+}
+.two, 
+   .one{
+   	font-size: 14px;
+   }
+   .fourlines{
+   	margin-top: 40px;
+   }
+   .fourlines span{
+	font-size: 18px;
+}
+
+#accordion{
+	width: 100%;}
+}

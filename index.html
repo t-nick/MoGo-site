@@ -27,8 +27,8 @@
 
 <!-- STYLE -->
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
 	
-
  
 </head>
 <body>
@@ -49,7 +49,23 @@
 							<li><a href="#"><i class="fa fa-search"></i></a></li>
 		</ul>
 	</div>
-		
+
+    <div class="mobmenu">
+		<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			 <a href="#about">About</a>
+			 <a href="#Cervice">Cervice</a>
+			 <a href="#work">work</a>
+			 <a href="#blog">blog</a>
+			 <a href="#contact">contact</a>
+			 <a href="#"><i class="fa fa-shopping-cart"></i></a>
+			 <a href="#"><i class="fa fa-search"></i></a>
+		</div>
+
+		<div style="text-align:right;padding: 12px 24px;">
+			<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776;</span>
+		</div>
+	</div>	
 	</nav>
 	<div class="title">
 		<p>Creative Template</p>
@@ -420,15 +436,25 @@
 <script src="js/jquery-ui.js"></script>
 
 
+<!-- Навигация -->
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+     
+<!-- Скролл -->
 <script src="js/scroll/jquery.mCustomScrollbar.concat.min.js"></script>
 	
 	<script>
 		(function($){
 			$(window).load(function(){
 				
-				$("body").mCustomScrollbar({
-					theme:"dark-thick"
-				});
+				
 				$(".conten").mCustomScrollbar({
 					theme:"dark-thick"
 				});
@@ -437,11 +463,12 @@
 			});
 		})(jQuery);
 	</script>
-
+<!-- Аккордеон -->
   <script>
     $( function() {
     $( "#accordion" ).accordion();
   } );
   </script>
+  
 </body>
 </html>

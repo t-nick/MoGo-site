@@ -27,7 +27,7 @@ header{
 	max-width: 1920px;
 	margin: 0 auto;
 	background: url("../img/baner.jpg") ;
-	background-position: top center;
+	background-position: center center;
 	height: 1000px;
 }
 nav{
@@ -74,9 +74,52 @@ nav{
 	border-bottom: 2px solid #fce38a;
 	cursor: pointer;
 }
+/*mobmenu*/
+.mobmenu{
+	display: none;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: rgba(221,116,116,1); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgba(221,116,116,1), rgba(227,205,104,1)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgba(221,116,116,1), rgba(227,205,104,1)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgba(221,116,116,1), rgba(227,205,104,1)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgba(221,116,116,1), rgba(227,205,104,1)); /* Standard syntax */
+   overflow-x: hidden;
+    transition: 0.6s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
 .title{
-	width: 850px;
-	margin: 150px auto 0;
+	margin: 120px auto;
 }
 .title p{
 	font-family: 'Montserrat', sans-serif;
@@ -124,8 +167,9 @@ nav{
    }
    .two, 
    .one{
-   flex: 1 1 150px;
-   	margin-right: 4%;
+   flex: 1 1 100px;
+   	margin-left: 3%;
+   	margin-right: 3%;
    	border-top: 3px solid #fff;
    	padding-top: 15px;
    	font-family: 'Montserrat', sans-serif;
@@ -144,7 +188,7 @@ nav{
 	font-size: 24px;
 	font-family: 'Kaushan Script', cursive;
 	color: #333333;
-	width: 300px;
+	
 	margin: 0 auto;
 	text-align: center;
 
@@ -259,8 +303,9 @@ nav{
 
 .num{
 	padding: 90px 20px;
-	flex: 1 1 120px;
-	border-right: 3px solid #b5eae0;
+	flex: 1 1 150px;
+	border-right: 2px solid #b5eae0;
+	border-left: 2px solid #b5eae0;
 	max-width: 240px;
 	box-sizing: border-box;
 	height: 270px;
@@ -378,6 +423,10 @@ nav{
 .we_do{
 	max-width: 1200px;
 	margin: 90px auto;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
 }
 
 .we_do .desc{
@@ -390,13 +439,18 @@ nav{
     flex-wrap: wrap;
 }
 .wall_img{
-	flex: 1 1 250px;
+	flex: 1 1 320px;
+	
+}
+.wall_img img{
+	width: 100%;
 }
 
 
 
 /*COMMENT*/
 #accordion{
+	flex: 1 1 320px;
 	width: 600px;
 	height: 370px;
 	color: black;
@@ -591,6 +645,7 @@ font-family: 'Kaushan Script', cursive;
 .label{
 	width: 100%;
 	background-color: #f8f8f8;
+	
 }
 .label_block{
 	max-width: 1200px;
@@ -603,7 +658,7 @@ font-family: 'Kaushan Script', cursive;
     align-content: stretch;
 }
 .label_block img{
-flex: 1 1 90px;
+flex: 1 1 300px;
 margin: 60px auto;
 max-width: 125px;
 }
@@ -626,8 +681,14 @@ max-width: 125px;
 .story{
 		max-width: 1200px;
 	margin: 90px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
 }
 .story_block{
+	flex: 1 1 300px;
 	margin: 90px auto;
 	max-width: 1200px;
 	display: flex;
