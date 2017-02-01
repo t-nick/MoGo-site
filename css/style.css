@@ -10,6 +10,7 @@ body{
 	color: #fff;
 }
 
+
 /*f48b82
 fce38a
 
@@ -28,14 +29,13 @@ header{
 	margin: 0 auto;
 	background: url("../img/baner.jpg") ;
 	background-position: center center;
+	background-attachment: fixed;
 	height: 1000px;
 }
 nav{
 	max-width: 1200px;
 	margin: 0 auto;
-	display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
+	display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
@@ -157,17 +157,14 @@ nav{
 .fourlines{
 	max-width: 1200px;
 	margin: 100px auto;
-	display: -webkit-flex;
     display: flex;
-    -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
    }
-   .two, 
-   .one{
-   flex: 1 1 100px;
+   .fourlines_blok{
+   flex: 1 1 90px;
    	margin-left: 3%;
    	margin-right: 3%;
    	border-top: 3px solid #fff;
@@ -184,12 +181,14 @@ nav{
 .about{
 	margin: 80px auto;
 }
+
+.abouttitle{
+	margin: 0 auto;
+}
 .abouttitle p{
 	font-size: 24px;
 	font-family: 'Kaushan Script', cursive;
 	color: #333333;
-	
-	margin: 0 auto;
 	text-align: center;
 
 }
@@ -214,10 +213,9 @@ nav{
 }
 
 .foto{
-	max-width: 1200px;
-	margin: 80px auto;
-	 display: flex;
-    -webkit-flex-wrap: wrap;
+
+	margin: 70px auto;
+	display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
@@ -225,13 +223,8 @@ nav{
     position: relative;
 }
 .foto_block{
-	display: flex;
-	-webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: stretch; 
-    align-content: stretch;
-    flex: 1 1 270px;
+
+   flex: 1 1 280px;
    margin: 20px 3%;
    max-width: 380px;
    background-color: #95e1d3;
@@ -277,23 +270,14 @@ nav{
 	width: 38px;
 }
 
-
-
-
-
 .numbers{
 	background-color: #95e1d3;
 	width: 100%;
 }
 .numbers-box{
 	max-width: 1200px;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
 	margin: 0 auto;
-	 -webkit-flex-wrap: wrap;
+	display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
@@ -304,8 +288,7 @@ nav{
 .num{
 	padding: 90px 20px;
 	flex: 1 1 150px;
-	border-right: 2px solid #b5eae0;
-	border-left: 2px solid #b5eae0;
+	border: 2px solid #b5eae0;
 	max-width: 240px;
 	box-sizing: border-box;
 	height: 270px;
@@ -326,7 +309,7 @@ nav{
 }
 
 .work_with{
-	margin: 100px auto;
+	margin: 80px auto;
 	height: auto;
 }
 .work_box {
@@ -349,24 +332,31 @@ nav{
 
 .list{
 	max-width: 1200px;
-	display: -webkit-flex;
+	width: 95%;
+	margin: 0 auto;
+	padding-left: 10px;
+	/*display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	margin: 0 auto;
 	-webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
-    align-content: stretch;
+    align-content: stretch;*/
     color: #999999;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: stretch; 
+    align-content: stretch;
 }
 .list_box{
 	flex: 1 1 300px;
 	display: flex;
 	margin: 0 auto;
-	-webkit-flex-wrap: wrap;
+	display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
@@ -388,21 +378,23 @@ nav{
   font-weight: bold;
   color: #333333;
   padding-bottom: 15px;
-
+}
+.list_box_desc{
+	padding-bottom: 20px;
 }
 /*devices*/
 .devices{
 	background: url('../img/devices.jpg');
 	background-position: center;
 	height: 845px;
-	margin-top: 100px;
+	margin-top: 80px;
 	padding-top: 100px;
 	position: relative;
 }
 
 .tab{
 	position: absolute;
-	bottom: 0;
+	bottom: -4px;
 	left:26%;
 }
 .tell{
@@ -416,31 +408,28 @@ nav{
 	height: 2px;
 	background-color: #e5e5e5;
 	width: 100%;
-	margin: 50px 0;
+	margin: 30px 0 40px;
 }
 
 /*we_do*/
 .we_do{
 	max-width: 1200px;
 	margin: 90px auto;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
+
 }
 
 .we_do .desc{
 	max-width: 960px;
 }
 .wall{
-	margin: 90px 0;
+	margin: 70px 0;
 	display: flex;
-	-webkit-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .wall_img{
 	flex: 1 1 320px;
-	
+	padding: 1%;
+    margin: auto;
 }
 .wall_img img{
 	width: 100%;
@@ -454,6 +443,7 @@ nav{
 	width: 600px;
 	height: 370px;
 	color: black;
+	padding:2%;
 
 }
 h3 img{
@@ -469,9 +459,9 @@ h3 img{
 }
 #accordion h3 p{
 	padding-left: 5px;
-position: absolute;
-top: 11px;
-left: 65px;
+	position: absolute;
+	top: 11px;
+	left: 65px;
 }
 .conten p{
 	font-size: 15px;
@@ -481,7 +471,7 @@ left: 65px;
 }
 .conten{
 	overflow: scroll;
-max-height: 220px;
+	max-height: 220px;
 
 	}
 .ui-state-active,
@@ -529,36 +519,34 @@ max-height: 220px;
 }
 .sign{
 	color: #000;
-flex: 1 1 120px;
-font-family: 'Kaushan Script', cursive;
+	flex: 1 1 120px;
+	font-family: 'Kaushan Script', cursive;
 }
 
 /*TEAM*/
 .team{
-	padding: 90px 0;
+	margin: 80px auto 70px;
 }
 
 .team_blok{
 	max-width: 1200px;
-	display: flex;
 	margin: 90px auto;
-	-webkit-flex-wrap: wrap;
+	display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
     flex: 1 1 270px;
-   margin: 20px 3%;
-   max-width: 380px;
-   background-color: #95e1d3;
+    margin: 20px 3%;
+    max-width: 380px;
+    background-color: #95e1d3;
 }
 
 
 .foto_team{
 	max-width: 1200px;
-	margin: 80px auto;
-	 display: flex;
-    -webkit-flex-wrap: wrap;
+	margin: 50px auto 70px;
+	display: flex;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
@@ -651,7 +639,6 @@ font-family: 'Kaushan Script', cursive;
 	max-width: 1200px;
 	margin: 0 auto;
 	display: flex;
-	 -webkit-flex-wrap: wrap;
     flex-wrap: wrap;
     justify-content:center;
     align-items: stretch; 
@@ -679,17 +666,13 @@ max-width: 125px;
 */
 
 .story{
-		max-width: 1200px;
-	margin: 90px auto;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
+	max-width: 1200px;
+	margin: 80px auto;
+	
 }
 .story_block{
 	flex: 1 1 300px;
-	margin: 90px auto;
+	margin: 60px auto;
 	max-width: 1200px;
 	display: flex;
 	flex-wrap: wrap;
@@ -700,9 +683,7 @@ max-width: 125px;
 .story_item {
 	flex: 1 1 250px;
 	position: relative;
-	
-	margin-right: 20px;
-
+	margin: 20px auto;
 }
 .date{
 	position: absolute;

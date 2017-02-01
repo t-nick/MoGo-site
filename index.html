@@ -2,14 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<meta name="vievport" content="width=device-width, initial-scale=1, maxim-scale=1"/>
+	<!-- <meta name="vievport" content="width=device-width, initial-scale=1, maxim-scale=1"/> -->
+
 	<title>MoGo</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 
 <!-- FONTS -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700|Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">  
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400" rel="stylesheet"> 
 
@@ -28,8 +29,7 @@
 <!-- STYLE -->
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/media.css">
-	
- 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -41,12 +41,12 @@
 	<div class="menu">
 		<ul>
 			<li><a href="#about">About</a></li>
-							<li><a href="#Cervice">Cervice</a></li>
-							<li><a href="#work">work</a></li>
-							<li><a href="#blog">blog</a></li>
-							<li><a href="#contact">contact</a></li>
-							<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
-							<li><a href="#"><i class="fa fa-search"></i></a></li>
+			<li><a href="#cervice">Cervice</a></li>
+			<li><a href="#work">work</a></li>
+			<li><a href="#team">team</a></li>
+			<li><a href="#blog">blog</a></li>
+			<li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+			<li><a href="#"><i class="fa fa-search"></i></a></li>
 		</ul>
 	</div>
 
@@ -54,10 +54,10 @@
 		<div id="mySidenav" class="sidenav">
 			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			 <a href="#about">About</a>
-			 <a href="#Cervice">Cervice</a>
+			 <a href="#cervice">Cervice</a>
 			 <a href="#work">work</a>
+			 <a href="#team">team</a>
 			 <a href="#blog">blog</a>
-			 <a href="#contact">contact</a>
 			 <a href="#"><i class="fa fa-shopping-cart"></i></a>
 			 <a href="#"><i class="fa fa-search"></i></a>
 		</div>
@@ -78,19 +78,19 @@
 	</div>
 
 <div class="fourlines">
-	<div class="one">
+	<div class="fourlines_blok">
 		<div class="lines"></div>
 		<span>01</span> intro
 	</div>
-	<div class="two">
+	<div class="fourlines_blok">
 		<div class="lines"></div>
 		<span>02</span> work
 	</div>
-	<div class="two">
+	<div class="fourlines_blok">
 		<div class="lines"></div>
 		<span>03</span> about
 	</div>
-	<div class="two">
+	<div class="fourlines_blok">
 		<div class="lines"></div>
 		<span>04</span> contacts
 	</div>
@@ -98,7 +98,7 @@
 
 </header>
 
-<section class="about">
+<section id="about" class="about">
 <div class="abouttitle">
 	<p>What we do</p>
 	<p>story about us</p>
@@ -171,15 +171,14 @@
 	<p>99</p>
 	<p>cup of coffee</p>
 	</div>
-
 	<div class="num">
 	<p>24</p>
 	<p>members</p>
 	</div>
 	</div>
 </section>
-
-<section class="work_with">
+<!--WORK WITH -->
+<section id="cervice" class="work_with">
 	<div class="work_box">
 		<p>We work with</p>
 		<p>Amazing Services</p>
@@ -190,21 +189,21 @@
 	<div class="list">
 		<div class="list_box">
 			<div class="img"><img src="img/clock.png"></div>
-			<div>
+			<div class="list_box_desc">
 				<p>Photography</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 			</div>
 		</div>
 		<div class="list_box">
 			<div class="img"><img src="img/path.png"></div>
-			<div>
+			<div class="list_box_desc">
 				<p>Web Design</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 			</div>
 		</div>
 		<div class="list_box">
 			<div class="img"><img src="img/monitor.png"></div>
-			<div >
+			<div class="list_box_desc" >
 				<p>Creativity</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 			</div>
@@ -214,21 +213,21 @@
 		<div class="list">
 		<div class="list_box">
 			<div class="img"><img src="img/book.png"></div>
-			<div>
+			<div class="list_box_desc">
 				<p>SEO</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 			</div>
 		</div>
 		<div class="list_box">
 			<div class="img"><img src="img/house.png"></div>
-			<div>
+			<div class="list_box_desc">
 				<p>CSS/HTML</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 			</div>
 		</div>
 		<div class="list_box">
 			<div class="img"><img src="img/kwadrat.png"></div>
-			<div >
+			<div class="list_box_desc" >
 				<p>DIGITAL</p>
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
 			</div>
@@ -242,16 +241,16 @@
 	<p>unique design</p>
 </div>
 <div class="redline"></div>
-<div class="tab"><img src="img/tab.png"></div>
-<div class="tell"><img src="img/tell.png"></div>
+<div class="tab"><img src="img/tab.png" width="100%"></div>
+<div class="tell"><img src="img/tell.png" width="100%"></div>
 	
 </section>
 
 <!-- we_do -->
-<section class="we_do">
-	<div class="abouttitle">
+<section id="work" class="we_do">
+<div class="abouttitle">
 	<p>Service</p>
-	<p>what we do</p>
+	<p>What we do</p>
 </div>
 <div class="redline"></div>
 <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
@@ -297,7 +296,7 @@
 </section>
 
 <!-- COMMENT -->
-<section class="comment">
+<!-- <section class="comment">
 	<div class="comment_box">
 		<a href=""><img src="img/arrow_left.png"></a>
 		<div class="img_comment"><img src="img/comment.png"></div>
@@ -309,9 +308,9 @@
 		
 		<a href=""><img src="img/arrow_right.png"></a>
 	</div>
-</section>
+</section> -->
 
-<section class="team">
+<section id="team" class="team">
 	<div class="abouttitle">
 	<p>Who we are</p>
 	<p>meet our team</p>
@@ -398,7 +397,7 @@
 </section> -->
 
 
-<section class="story">
+<section id="blog" class="story">
 		<div class="abouttitle">
 		<p>Our stories</p>
 	<p>Latest blog</p>
@@ -428,20 +427,18 @@
 
 <footer>
 	<div class="grey"></div>
-	<p>© 2016 MoGo free PSD template by <span>Laaqiq</span></p>
+	<p>© 2017 MoGo free PSD template by <span>Laaqiq</span></p>
 </footer>
 
 
 <script src="js/jquery.js"></script>
 <script src="js/jquery-ui.js"></script>
 
-
 <!-- Навигация -->
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
-
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
@@ -458,8 +455,6 @@ function closeNav() {
 				$(".conten").mCustomScrollbar({
 					theme:"dark-thick"
 				});
-
-
 			});
 		})(jQuery);
 	</script>
@@ -469,6 +464,8 @@ function closeNav() {
     $( "#accordion" ).accordion();
   } );
   </script>
-  
-</body>
+
+  <!-- <script type="text/javascript" src="prefixfree.js"></script>
+ -->
+ </body>
 </html>

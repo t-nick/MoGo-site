@@ -38,7 +38,7 @@ header{
 font-size: 28px;
 }
 header{
-	max-height: 600px;
+	max-height: 575px;
 }
 .title{
 	margin: 60px auto;
@@ -48,7 +48,7 @@ header{
    	font-size: 14px;
    }
    .fourlines{
-   	margin-top: 40px;
+   	margin-top: 65px;
    }
    .fourlines span{
 	font-size: 18px;
@@ -56,4 +56,22 @@ header{
 
 #accordion{
 	width: 100%;}
+}
+
+@media screen and (max-width: 480px){
+	.fourlines_blok,
+	.fourlines span{
+		font-size: 12px;
+	}
+	.desc{
+		font-size: 20px;
+	}
+	.conten p {
+		font-size: 18px;
+	}
+	.list_box div,
+	.list_box div p:first-child{
+	flex: 1 1 260px;
+	font-size: 20px;
+}
 }
