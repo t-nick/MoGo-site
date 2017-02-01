@@ -9,21 +9,6 @@ body{
 	font-size: 15px;
 	color: #fff;
 }
-
-
-/*f48b82
-fce38a
-
-
-
-    font-family: 'Kaushan Script', cursive;
-
-    font-family: 'Montserrat', sans-serif;
-
-    font-family: 'Roboto', sans-serif;
-
-*/
-
 header{
 	max-width: 1920px;
 	margin: 0 auto;
@@ -40,8 +25,7 @@ nav{
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
-   }
-   
+}
 .logo{
 	height: 60px;
 	padding-left: 15px;
@@ -50,7 +34,6 @@ nav{
 }
 .menu{
 	flex: 1 1 400px;
-   
 }
 .menu ul{
     height: 60px;
@@ -94,7 +77,6 @@ nav{
     transition: 0.6s;
     padding-top: 60px;
 }
-
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
@@ -105,11 +87,9 @@ nav{
     text-align: center;
     text-transform: uppercase;
 }
-
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
 }
-
 .sidenav .closebtn {
     position: absolute;
     top: 0;
@@ -117,7 +97,6 @@ nav{
     font-size: 36px;
     margin-left: 50px;
 }
-
 .title{
 	margin: 120px auto;
 }
@@ -132,7 +111,6 @@ nav{
 	font-family: 'Kaushan Script', cursive;
 	font-size: 72px;
 	text-transform: none;
-
 }
 .line{
 	height: 3px;
@@ -153,7 +131,6 @@ nav{
 	line-height: 40px;
 	cursor: pointer;
 }
-
 .fourlines{
 	max-width: 1200px;
 	margin: 100px auto;
@@ -162,8 +139,8 @@ nav{
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
-   }
-   .fourlines_blok{
+}
+.fourlines_blok{
    flex: 1 1 90px;
    	margin-left: 3%;
    	margin-right: 3%;
@@ -181,7 +158,6 @@ nav{
 .about{
 	margin: 80px auto;
 }
-
 .abouttitle{
 	margin: 0 auto;
 }
@@ -190,7 +166,6 @@ nav{
 	font-family: 'Kaushan Script', cursive;
 	color: #333333;
 	text-align: center;
-
 }
 .abouttitle p:last-child{
 	font-family: 'Montserrat', sans-serif;
@@ -211,7 +186,6 @@ nav{
 	color: #999999;
 	margin: 0 10%;
 }
-
 .foto{
 
 	margin: 70px auto;
@@ -223,7 +197,6 @@ nav{
     position: relative;
 }
 .foto_block{
-
    flex: 1 1 280px;
    margin: 20px 3%;
    max-width: 380px;
@@ -253,13 +226,10 @@ nav{
 }
 .foto_block_item:hover .image_wrap{
 	opacity: 1;
-	
 }
-
 .foto_block_item:hover{
 	transform: translate(-10px,-10px);
 }
-
 .block_descr{
 	color: #fff;
 	text-align: center;
@@ -269,7 +239,6 @@ nav{
 	height: 25px;
 	width: 38px;
 }
-
 .numbers{
 	background-color: #95e1d3;
 	width: 100%;
@@ -282,9 +251,7 @@ nav{
     justify-content:center;
     align-items: stretch; 
     align-content: stretch;
-    
 }
-
 .num{
 	padding: 90px 20px;
 	flex: 1 1 150px;
@@ -301,13 +268,11 @@ nav{
 	font-size: 72px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
-
 }
 .num p:last-child{
 	text-transform: uppercase;
 	font-size: 14px;
 }
-
 .work_with{
 	margin: 80px auto;
 	height: auto;
@@ -329,22 +294,11 @@ nav{
 	text-align: center;
 	margin: 20px 0 30px;
 }
-
 .list{
 	max-width: 1200px;
 	width: 95%;
 	margin: 0 auto;
 	padding-left: 10px;
-	/*display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	-webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content:center;
-    align-items: stretch; 
-    align-content: stretch;*/
     color: #999999;
     display: flex;
     flex-wrap: wrap;
@@ -391,7 +345,6 @@ nav{
 	padding-top: 100px;
 	position: relative;
 }
-
 .tab{
 	position: absolute;
 	bottom: -4px;
@@ -402,22 +355,17 @@ nav{
 	bottom: -80px;
 	left:55%;
 }
-
-
 .grey{
 	height: 2px;
 	background-color: #e5e5e5;
 	width: 100%;
 	margin: 30px 0 40px;
 }
-
 /*we_do*/
 .we_do{
 	max-width: 1200px;
 	margin: 90px auto;
-
 }
-
 .we_do .desc{
 	max-width: 960px;
 }
@@ -434,10 +382,6 @@ nav{
 .wall_img img{
 	width: 100%;
 }
-
-
-
-/*COMMENT*/
 #accordion{
 	flex: 1 1 320px;
 	width: 600px;
@@ -481,7 +425,7 @@ h3 img{
 	text-transform: uppercase;
 }
 /*COMMENT*/
-.comment{
+/*.comment{
 	background-color: #f8f8f8;
 	height: 286px;
 
@@ -522,12 +466,11 @@ h3 img{
 	flex: 1 1 120px;
 	font-family: 'Kaushan Script', cursive;
 }
-
+*/
 /*TEAM*/
 .team{
 	margin: 80px auto 70px;
 }
-
 .team_blok{
 	max-width: 1200px;
 	margin: 90px auto;
@@ -541,8 +484,6 @@ h3 img{
     max-width: 380px;
     background-color: #95e1d3;
 }
-
-
 .foto_team{
 	max-width: 1200px;
 	margin: 50px auto 70px;
@@ -553,16 +494,13 @@ h3 img{
     align-content: stretch;
     position: relative;
 }
-
 .block{
 	 flex: 1 1 270px;
    margin: 20px 3%;
    max-width: 380px;
 }
-
 .team_blok_item{
 	position: relative;
-	
 }
 .team_blok_item img{
 	width: 100%;
@@ -574,9 +512,6 @@ h3 img{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	/*background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
-	/*background: -moz-linear-gradient (bottom,rgba(221,116,116,0.7),rgba(227,205,104,0.7));*/
-	
 	background: rgba(221,116,116,0.8); /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(rgba(221,116,116,0.8), rgba(227,205,104,0.8)); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(rgba(221,116,116,0.8), rgba(227,205,104,0.8)); /* For Opera 11.1 to 12.0 */
@@ -587,18 +522,14 @@ h3 img{
 }
 .team_blok_item:hover .image_wrap{
 	opacity: 1;
-	
 }
-
 .team_blok_item:hover{
 	transform: translate(-10px,-10px);
 }
-
 .block_descr{
 	text-align: center;
 	margin: auto;
 }
-
 .block_descr a{
 	display: inline-block;
 	background-color: #fce38a;
@@ -613,7 +544,6 @@ h3 img{
 	background-color: #f38181;
 	color: #fff;
 }
-
 .team_blok p{
 	text-align: center;
 }
@@ -645,33 +575,15 @@ h3 img{
     align-content: stretch;
 }
 .label_block img{
-flex: 1 1 300px;
-margin: 60px auto;
-max-width: 125px;
+	flex: 1 1 300px;
+	margin: 60px auto;
+	max-width: 125px;
 }
-
-/*.map, .map iframe{
-	margin-top: 100px;
-	height: 200px;
-	width: 100%;
-
-}
-
-.map:hover, .map iframe:hover{
-	
-	height: 400px;
-	width: 100%;
-	
-}
-*/
-
 .story{
 	max-width: 1200px;
 	margin: 80px auto;
-	
 }
 .story_block{
-	flex: 1 1 300px;
 	margin: 60px auto;
 	max-width: 1200px;
 	display: flex;
@@ -681,13 +593,15 @@ max-width: 125px;
 	align-content: stretch;
 }
 .story_item {
-	flex: 1 1 250px;
+	flex: 1 1 330px;
 	position: relative;
 	margin: 20px auto;
+	max-width: 400px;
+	padding-left: 12px;
 }
 .date{
 	position: absolute;
-	left:-10px;
+	left:3px;
 	top:160px;
 	background-color: #95e1d3;
 	z-index: 5;
@@ -698,12 +612,14 @@ max-width: 125px;
 	font-style: italic;
 	font-size: 14px;
 }
+.story_item img{
+	width: 100%;
+}
 .date span{
 	font-size: 32px;
 	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
 }
-
 .story_item p{
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase;
@@ -719,16 +635,42 @@ text-align: left;
 text-transform: none;
 padding-top: 10px;
 padding-right: 30px;
-
 }
 
+/*MAP*/
+/*.map{
+	height: 200px;	
+	width: 100%;
+	margin:70px auto;
+	background: url("../img/map1.jpg");
+	
+}
+.map_pin{
+	width: 140px;
+	color: #f47575;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: rgba(243,233,233,0.5);
+}
+.mapred{
+	margin: 20px auto;
+}
+.map_big{
+height: 400px;
+width: auto;
+background: url("../img/map2.jpg");
+margin:70px auto;
+}*/
 footer{
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	color: #333;
 	text-align: center;
 	margin-bottom: 10px;
-
 }
 footer span{
 	color: #f4a4a4;

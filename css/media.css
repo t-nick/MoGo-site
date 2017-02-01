@@ -2,9 +2,8 @@
 .title p{
 	font-size: 100px;
 }
-
 .title p:first-child{
-font-size: 48px;
+	font-size: 48px;
 }
 header{
 	max-height: 800px;
@@ -12,26 +11,44 @@ header{
 .title{
 	margin-top: 90px;
 }
-.two, 
-   .one{
+.fourlines_blok{
    	font-size: 15px;
-   }
-   .fourlines{
+}
+.fourlines{
    	margin-top: 60px;
-   }
+}
 }
 
-
-
+@media only screen and (max-width : 768px) {
+/*Disable Animation on Mobile Devices*/
+.wow {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+}
 @media screen and (max-width: 700px){
-	.mobmenu{
+.mobmenu{
 	display: block;
-	
 }
 .menu{
 	display: none;
 }
-	.title p{
+.title p{
 	font-size: 60px;
 }
 .title p:first-child{
@@ -43,34 +60,28 @@ header{
 .title{
 	margin: 60px auto;
 }
-.two, 
-   .one{
-   	font-size: 14px;
-   }
-   .fourlines{
+.fourlines{
    	margin-top: 65px;
-   }
-   .fourlines span{
+}
+.fourlines span{
 	font-size: 18px;
 }
-
 #accordion{
 	width: 100%;}
 }
-
 @media screen and (max-width: 480px){
-	.fourlines_blok,
-	.fourlines span{
-		font-size: 12px;
-	}
-	.desc{
-		font-size: 20px;
-	}
-	.conten p {
-		font-size: 18px;
-	}
-	.list_box div,
-	.list_box div p:first-child{
+.fourlines_blok,
+.fourlines span{
+	font-size: 12px;
+}
+.desc{
+	font-size: 20px;
+}
+.conten p {
+	font-size: 18px;
+}
+.list_box div,
+.list_box div p:first-child{
 	flex: 1 1 260px;
 	font-size: 20px;
 }
